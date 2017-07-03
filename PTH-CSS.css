@@ -190,7 +190,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #logo {
 	width: 335px;
 	height: 55px;
-	background: url('static/styles/shiro/images/red-shiro.png') no-repeat top left;
+	background: url('https://redacted.ch/static/styles/shiro/images/red-shiro.png') no-repeat top left;
 	margin: 16px 0 0 11px;
 	position: absolute;
 	z-index: 2;
