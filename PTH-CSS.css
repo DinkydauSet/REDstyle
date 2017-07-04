@@ -7,10 +7,10 @@ This design incorporates some code from the 'Customize Zeal' Greasemonkey script
 
 
 /* Global */
-@font-face { font-family: Akzidenz; src: url('http://redacted.ch/images/Akzidenz.otf'); }
-@font-face { font-family: Officina; src: url('http://redacted.ch/images/Officina.otf'); }
-@font-face { font-family: Corpid; src: url('http://redacted.ch/images/CorpidOffice.ttf'); }
-@font-face { font-family: Avant; src: url('http://redacted.ch/images/Avant.otf'); }
+@font-face { font-family: Akzidenz; src: url('https://redacted.ch/images/Akzidenz.otf'); }
+@font-face { font-family: Officina; src: url('https://redacted.ch/images/Officina.otf'); }
+@font-face { font-family: Corpid; src: url('https://redacted.ch/images/CorpidOffice.ttf'); }
+@font-face { font-family: Avant; src: url('https://redacted.ch/images/Avant.otf'); }
 
 * {
 	padding: 0em;
@@ -145,7 +145,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 #header {
 	width: 950px;
 	margin: 0 auto 0 auto;
-	/*background: url('http://redacted.ch/images/bg_header.png') 11px 65px no-repeat;*/
+	/*background: url('https://redacted.ch/images/bg_header.png') 11px 65px no-repeat;*/
 	height: 173px;
 	padding: 0 0 0 0;
 }
@@ -155,13 +155,13 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	margin: 0 auto 0 auto;
 	border: 1px solid #222;
 	color: #DFDFDF;
-	background: rgba(0, 0, 0, 0.35) url('http://redacted.ch/images/content.png');
+	background: rgba(0, 0, 0, 0.35) url('https://redacted.ch/images/content.png');
 	padding: 40px 22px;
 	overflow: hidden;
 }
 
 #alerts {
-	background: rgba(0, 0, 0, 0.35) url('http://redacted.ch/images/content.png');
+	background: rgba(0, 0, 0, 0.35) url('https://redacted.ch/images/content.png');
 	padding: 4px 9px;
 	margin: -19px auto 0 auto;
 	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
@@ -169,7 +169,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #footer {
-	background: rgba(0, 0, 0, 0.35) url('http://redacted.ch/images/bg_footer.png');
+	background: rgba(0, 0, 0, 0.35) url('https://redacted.ch/images/bg_footer.png');
 	margin-top: 40px;
 	width: 100%;
 	text-align: center;
@@ -361,7 +361,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	padding: 0 2px 0 10px;
 	font-family: Helvetica, Arial, sans-serif;
 	height: 22px;
-	background: url('http://redacted.ch/images/content_light.png') rgba(0, 0, 0, 0.35);
+	background: url('https://redacted.ch/images/content_light.png') rgba(0, 0, 0, 0.35);
 	color: #FFF;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -370,14 +370,14 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #autocomplete {
-	background: url('http://redacted.ch/images/content.png');
+	background: url('https://redacted.ch/images/content.png');
 	border: 1px solid #EEE;
 	list-style: none;
 }
 
 #searchbars input:active,
 #searchbars input:focus {
-	background: url('http://redacted.ch/images/content.png');
+	background: url('https://redacted.ch/images/content.png');
 	border: 1px solid #EEE;
 }
 
@@ -406,7 +406,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	left: 0;
 	z-index: 1000;
 	border: 1px solid #EEE;
-	background: url('http://redacted.ch/images/content.png');
+	background: url('https://redacted.ch/images/content.png');
 	width: 12em;
 	margin-top: 12px;
 }
@@ -461,7 +461,7 @@ table.grouping>tbody>tr.colhead>td:first-child+td+td,
 table.no_grouping>tbody>tr.group>td:first-child+td,
 table.no_grouping>tbody>tr.colhead>td:first-child+td { /*text-indent:-20px;*/ border-left: none;}
 
-.last_read {width: 15px; height: 15px; background: url('http://redacted.ch/images/go_last_read.png') no-repeat center center; margin-left: 5px;}
+.last_read {width: 15px; height: 15px; background: url('https://redacted.ch/images/go_last_read.png') no-repeat center center; margin-left: 5px;}
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 .last_read a:active, .last_read a:focus { outline: 0; }
@@ -608,7 +608,7 @@ td, th {
 
 .colhead, .colhead_dark, .head {
 	padding: 4px;
-	background: #000 url('http://redacted.ch/images/table_header_dark.png') repeat-x;
+	background: #000 url('https://redacted.ch/images/table_header_dark.png') repeat-x;
 	border-bottom: 1px solid #000;
 	color: #FBFCFD;
 }
@@ -698,7 +698,7 @@ ul.poll li.graph {
 .show_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('http://redacted.ch/images/show.png') no-repeat center center;
+	background: url('https://redacted.ch/images/show.png') no-repeat center center;
 	-moz-opacity: 0.5;
 	opacity:.50;
 	filter: alpha(opacity=50);
@@ -707,7 +707,7 @@ ul.poll li.graph {
 .hide_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('http://redacted.ch/images/hide.png') no-repeat center center;
+	background: url('https://redacted.ch/images/hide.png') no-repeat center center;
 	-moz-opacity: 0.5;
 	opacity:.50;
 	filter: alpha(opacity=50);
@@ -788,14 +788,14 @@ tr.torrent td {
 
 /* Layout (Forums) */
 
-.unread_locked_sticky{background: url('http://redacted.ch/images/locked_sticky_unread.png') no-repeat center center;}
-.read_locked_sticky{background: url('http://redacted.ch/images/locked_sticky_read.png') no-repeat center center;}
-.read_sticky{background: url('http://redacted.ch/images/sticky_read.png') no-repeat center center;}
-.unread_sticky{background: url('http://redacted.ch/images/sticky_unread.png') no-repeat center center;}
-.unread_locked{background: url('http://redacted.ch/images/locked_unread.png') no-repeat center center;}
-.read_locked{background: url('http://redacted.ch/images/locked_read.png') no-repeat center center;}
-.unread{background: url('http://redacted.ch/images/unread.png') no-repeat center center;}
-.read{background: url('http://redacted.ch/images/read.png') no-repeat center center;}
+.unread_locked_sticky{background: url('https://redacted.ch/images/locked_sticky_unread.png') no-repeat center center;}
+.read_locked_sticky{background: url('https://redacted.ch/images/locked_sticky_read.png') no-repeat center center;}
+.read_sticky{background: url('https://redacted.ch/images/sticky_read.png') no-repeat center center;}
+.unread_sticky{background: url('https://redacted.ch/images/sticky_unread.png') no-repeat center center;}
+.unread_locked{background: url('https://redacted.ch/images/locked_unread.png') no-repeat center center;}
+.read_locked{background: url('https://redacted.ch/images/locked_read.png') no-repeat center center;}
+.unread{background: url('https://redacted.ch/images/unread.png') no-repeat center center;}
+.read{background: url('https://redacted.ch/images/read.png') no-repeat center center;}
 
 table.forum_post {
 	margin: 10px 0px;
@@ -906,9 +906,9 @@ ul .invitetree {
 .poll li { clear: both; }
 .poll .graph { padding: 0 0 15px 0; }
 .poll .graph span { display: block; height: 19px; float: left; }
-.poll .graph .left_poll { width: 9px; background: url('http://redacted.ch/images/poll_left.png') top left no-repeat; }
-.poll .graph .center_poll { background: url('http://redacted.ch/images/poll_middle.png') top left repeat-x; }
-.poll .graph .right_poll { width: 11px; background: url('http://redacted.ch/images/poll_right.png') top left no-repeat; }
+.poll .graph .left_poll { width: 9px; background: url('https://redacted.ch/images/poll_left.png') top left no-repeat; }
+.poll .graph .center_poll { background: url('https://redacted.ch/images/poll_middle.png') top left repeat-x; }
+.poll .graph .right_poll { width: 11px; background: url('https://redacted.ch/images/poll_right.png') top left no-repeat; }
 
 .curtain {
 	position: fixed;
